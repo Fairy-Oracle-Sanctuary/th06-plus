@@ -1,0 +1,11 @@
+build
+diff
+*.obj
+*.exe
+*.zip
+resources/original.ico
+log.txt
+scripts/dls
+scripts/prefix
+build.ninja
+__pycache__
