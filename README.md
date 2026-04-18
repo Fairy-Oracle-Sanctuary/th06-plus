@@ -22,6 +22,10 @@ This fork includes the following modifications:
 - **Chinese localization** - Full Chinese text support with GB2312 charset and SimHei font
 - **Default windowed mode** - Game starts in windowed mode by default
 
+### Chinese Localization Data
+
+The Chinese localized DAT files (`th06c_*.DAT`) are from [thdog.moe](https://cn.thdog.moe/%E5%9B%BD%E9%99%85%E5%88%86%E6%B5%811/%E4%B8%9C%E6%96%B9Project/%E5%AE%98%E6%96%B9%E6%B8%B8%E6%88%8F/%E6%95%B4%E6%95%B0%E4%BD%9C/%5Bth06%5D%20%E4%B8%9C%E6%96%B9%E7%BA%A2%E9%AD%94%E4%B9%A1%20(%E6%B1%89%E5%8C%96%E7%89%88+%E6%97%A5%E6%96%87%E7%89%88)%201.02h.zip).
+
 ---
 
 Original project description:
