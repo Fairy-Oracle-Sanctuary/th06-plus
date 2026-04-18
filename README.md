@@ -1,4 +1,4 @@
-# Touhou 06 ~ the Embodiment of Scarlet Devil
+# Touhou 06 ~ the Embodiment of Scarlet Devil[plus]
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="resources/progress_dark.svg">
