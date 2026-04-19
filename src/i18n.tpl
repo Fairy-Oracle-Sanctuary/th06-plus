@@ -197,7 +197,7 @@
 
 // CN (Chinese)
 #define TH_CN_CONFIG_FILE "th06.cfg"
-#define TH_CN_WINDOW_TITLE " touhou 06 ~ the Embodiment of Scarlet Devil."
+#define TH_CN_WINDOW_TITLE " Touhou Koumakyou ~ the Embodiment of Scarlet Devil"
 #define TH_CN_DBG_MAINMENU_VRAM "Debug : title menu VRAM = %d\n"
 #define TH_CN_DBG_RESULTSCREEN_COUNAT "counat = %d\n"
 #define TH_CN_ERR_ALREADY_RUNNING "Touhou cannot be started\n"
@@ -268,10 +268,10 @@
 #define TH_CN_ERR_MIDI_FAILED_TO_READ_FILE "error : MIDI File %s could not be read.\n"
 #define TH_CN_ERR_MIDI_NOT_LOADED "error : MIDI not loaded before being playback started.\n"
 
-#define TH_CN_REIMU_A_BOMB_NAME "Spirit Sign \"Dream Seal\""
-#define TH_CN_REIMU_B_BOMB_NAME "Dream Sign \"Evil-Sealing Circle\""
-#define TH_CN_MARISA_A_BOMB_NAME "Magic Sign \"Stardust Reverie\""
-#define TH_CN_MARISA_B_BOMB_NAME "Love Sign \"Master Spark\""
+#define TH_CN_REIMU_A_BOMB_NAME "灵符 「梦想封印」"
+#define TH_CN_REIMU_B_BOMB_NAME "灵符 「封魔阵」"
+#define TH_CN_MARISA_A_BOMB_NAME "魔咒 「Stardust Reverie」"
+#define TH_CN_MARISA_B_BOMB_NAME "恋符 「Master Spark」"
 
 #define TH_CN_HAKUREI_REIMU_SPIRIT "Hakurei Reimu (Spirit)"
 #define TH_CN_HAKUREI_REIMU_DREAM "Hakurei Reimu (Dream)"

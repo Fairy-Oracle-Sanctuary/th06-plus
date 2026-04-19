@@ -5,6 +5,11 @@ import sys
 
 file_contents = b""
 
+
+def normalize_to_gbk(s: str) -> str:
+    return s.replace("\u301c", "\uff5e")
+
+
 with open(sys.argv[1], "rb") as f:
     lines = f.readlines()
 
@@ -27,7 +32,9 @@ for line in lines:
 
             idx2 = line.find(b'"', idx2 + 1)
 
-    sjis_str = line[idx1 + 1 : idx2].decode("utf-8").encode("shift_jis")
+    utf8_str = line[idx1 + 1 : idx2].decode("utf-8")
+    utf8_str = normalize_to_gbk(utf8_str)
+    sjis_str = utf8_str.encode("gbk")
 
     converted_str = b""
 
