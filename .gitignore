@@ -3,6 +3,7 @@ diff
 *.obj
 *.exe
 *.zip
+*.cfg
 resources/original.ico
 log.txt
 scripts/dls
