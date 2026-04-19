@@ -1,5 +1,9 @@
 # Touhou 06 ~ the Embodiment of Scarlet Devil[plus]
 
+<p align="center">
+English | <a href="README_CN.md">简体中文</a>
+</p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="resources/progress_dark.svg">
   <img alt="Decomp Progress" src="resources/progress.svg">
