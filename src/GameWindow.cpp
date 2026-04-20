@@ -98,6 +98,15 @@ RenderResult GameWindow::Render()
                     goto I_HAVE_NO_CLUE_WHY_BUT_I_MUST_JUMP_HERE;
                 goto LOOP_USING_GOTO_BECAUSE_WHY_NOT;
             }
+            else
+            {
+                // Frame was too fast, wait for remaining time to ensure 60fps
+                Sleep((DWORD)(FRAME_TIME - local_34));
+                g_LastFrameTime += FRAME_TIME;
+                if (g_Supervisor.cfg.frameskipConfig < this->curFrame)
+                    goto I_HAVE_NO_CLUE_WHY_BUT_I_MUST_JUMP_HERE;
+                goto LOOP_USING_GOTO_BECAUSE_WHY_NOT;
+            }
         }
     }
 
